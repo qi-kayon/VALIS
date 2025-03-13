@@ -3,13 +3,28 @@
 <head>
   <title>VALIS</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
-  <textarea id="postInput" maxlength="250" placeholder="Write a post..."></textarea>
-  <button id="submitPost">Post</button>
+  <div class="title-container">
+    <div class="title-wrapper">
+      <span class="subtitle">Virtual Autonomous Linked Information System</span>
+      <h1 class="title">VALIS</h1>
+    </div>
+  </div>
+  <header>
+    <nav>
+      <span class="nav-item">COMMS</span>
+      <span class="nav-item">USERS</span>
+      <span class="nav-item">FIND</span>
+      <span class="nav-item">EXIT</span>
+    </nav>
+  </header>
+  <div class="post-container">
+    <textarea id="postInput" maxlength="250" placeholder="Add comm..."></textarea>
+    <button id="submitPost">Send</button>
+  </div>
   <div id="postList"></div>
   <script src="app.js"></script>
 </body>
 </html>
-
-
